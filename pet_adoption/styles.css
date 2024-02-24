@@ -6,6 +6,8 @@ body, html {
 
 .top-section-wrapper {
     background-color: #001D37; /*This allows for background to fill page, but all sections are a designated width in section below*/
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 .top-section {
@@ -15,3 +17,12 @@ body, html {
     max-width: 1066px;
     margin: 0 auto; /* center area on designated width */
 }
+
+.our-btn {
+    background-color: #475AFF;
+    color: #FFF;
+    text-decoration: none;
+    padding: 13px 25px; 
+    border-radius: 1000px;
+}
+
