@@ -1,4 +1,17 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+.top-section-wrapper {
+    background-color: #001D37; /*This allows for background to fill page, but all sections are a designated width in section below*/
+}
+
 .top-section {
-    background-color: #001D37;
     color: white;
+    padding-top: 139px;
+    padding-bottom: 139px;
+    max-width: 1066px;
+    margin: 0 auto; /* center area on designated width */
 }
