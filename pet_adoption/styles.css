@@ -4,11 +4,16 @@ body, html {
     background-color: white;
 }
 
+body {
+    font-family: "Source Sans 3", sans-serif;
+}
+
 .top-section-wrapper {
     background-color: #001D37; /*This allows for background to fill page, but all sections are a designated width in section below*/
     padding-left: 16px;
     padding-right: 16px;
 }
+
 
 .top-section {
     color: white;
@@ -19,10 +24,19 @@ body, html {
 }
 
 .our-btn {
+    font-weight: 600;
     background-color: #475AFF;
     color: #FFF;
     text-decoration: none;
-    padding: 13px 25px; 
+    padding: 11px 25px; 
     border-radius: 1000px;
 }
 
+.out-btn--outline {
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+.utility-mr {
+    margin-right: 10px;
+}
