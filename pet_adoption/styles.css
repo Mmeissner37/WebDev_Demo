@@ -30,7 +30,7 @@ body {
     max-width: 525px;
 }
 
-.top-section p {
+.intro-text {
     font-size: 1.25rem;
     line-height: 169.3%;
     margin: 1rem 0;
@@ -60,3 +60,20 @@ body {
 .utility-mr {
     margin-right: 10px;
 }
+
+.intro-feature {
+    padding: 33px 25px; 
+    border: 1px solid rgba(255, 255, 255, .24);
+}
+
+.intro-feature p {
+    margin: 0;
+    font-size: 1.0625rem;
+}
+
+.intro-features {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;  /*1fr means fraction, each column is the same width */
+    column-gap: 16px;
+}
+
