@@ -12,6 +12,7 @@ body {
     background-color: #001D37; /*This allows for background to fill page, but all sections are a designated width in section below*/
     padding-left: 16px;
     padding-right: 16px;
+    overflow: hidden;
 }
 
 
@@ -21,6 +22,12 @@ body {
     padding-bottom: 139px;
     max-width: 1066px;
     margin: 0 auto; /* center area on designated width */
+    position: relative;
+}
+
+.actual-top-content {
+    z-index: 2;
+    position: relative;
 }
 
 .top-section h1 {
@@ -46,6 +53,7 @@ body {
     font-size: 1.125rem;
     font-weight: 600;
     background-color: #475AFF;
+    border: 2px solid #475AFF;
     color: #FFF;
     text-decoration: none;
     padding: 11px 25px; 
@@ -71,9 +79,38 @@ body {
     font-size: 1.0625rem;
 }
 
+.intro-feature h2 {
+    font-size: 1.5rem;
+    margin: 31px 0 3px 0;
+}
+
 .intro-features {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;  /*1fr means fraction, each column is the same width */
     column-gap: 16px;
+}
+
+.circle {
+    width: 617px;
+    height: 617px;
+    background-color: #D660FF;
+    opacity: .85;
+    border-radius: 50%; /*this will make a perfect circle */
+    filter: blur(150px);
+    position: absolute;
+    top: 62px;
+    right: -390px;
+}
+
+.circle-two {
+    width: 617px;
+    height: 617px;
+    background-color: #6079FF;
+    opacity: .85;
+    border-radius: 50%; /*this will make a perfect circle */
+    filter: blur(150px);
+    position: absolute;
+    top: -365px;
+    left: -123px;
 }
 
